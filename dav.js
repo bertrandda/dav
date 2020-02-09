@@ -2572,7 +2572,7 @@ var Request = function Request() {
 exports.Request = Request;
 
 function getProp(propstat) {
-  if (/404/g.test(propstat.status)) {
+  if (/404|418/g.test(propstat.status)) {
     return null;
   }
   if (/5\d{2}/g.test(propstat.status) || /4\d{2}/g.test(propstat.status)) {
