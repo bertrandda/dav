@@ -1,11 +1,11 @@
 {
-  "name": "dav",
+  "name": "dav-request",
   "version": "1.8.0",
   "author": "Gareth Aye [:gaye] <gaye@mozilla.com>",
   "description": "WebDAV, CalDAV, and CardDAV client for nodejs and the browser",
   "license": "MPL-2.0",
   "main": "./dav.js",
-  "repository": "https://github.com/gaye/dav",
+  "repository": "https://github.com/bertrandda/dav/tree/gladys-custom",
   "keywords": [
     "address book",
     "calendar",
