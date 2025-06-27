@@ -3339,7 +3339,7 @@ if (typeof self !== 'undefined' && 'XMLHttpRequest' in self) {
 } else {
   // Trick browserify into not loading XMLHttpRequest polyfill
   // since it is available in the platform (including web workers)
-  Native = require(false || 'xmlhttprequest').XMLHttpRequest;
+  Native = require(false || 'xmlhttprequest-ssl').XMLHttpRequest;
 }
 
 /**
