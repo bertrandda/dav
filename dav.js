@@ -11470,7 +11470,7 @@ exports.XMLReader = XMLReader;
 },{}],149:[function(require,module,exports){
 module.exports={
   "name": "dav-request",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "author": "Gareth Aye [:gaye] <gaye@mozilla.com>",
   "description": "WebDAV, CalDAV, and CardDAV client for nodejs and the browser",
   "license": "MPL-2.0",
